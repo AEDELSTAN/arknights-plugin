@@ -1,0 +1,5 @@
+# MAA远程控制总开关
+maa_control_toggle: false
+# MAA API host
+# 构建镜像：https://hub.docker.com/repository/docker/windoge/maa-control-api/general
+maa_api_host:
