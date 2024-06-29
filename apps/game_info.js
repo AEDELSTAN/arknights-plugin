@@ -11,11 +11,11 @@ export class SKLandGameInfo extends plugin {
             priority: 100,
             rule: [
                 {
-                    reg: `^${rulePrefix}理智$`,
+                    reg: `^${rulePrefix}(理智|体力)$`,
                     fnc: 'ap'
                 },
                 // {
-                // 	reg: `^${rulePrefix}基建$`,
+                // 	reg: `^${rulePrefix}(基建|宿舍)$`,
                 // 	fnc: 'building'
                 // },
                 // {
